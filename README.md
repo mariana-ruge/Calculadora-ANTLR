@@ -77,6 +77,7 @@ Navega hasta la carpeta que se ha clonado en tus directorios
 Verifica que los archivos que estan subidos en este repositorio sean exactamente los que se han clonado a tu entorno local, para no tener problemas más adelante.
 
 2.  Una vez en la carpeta,  deberás compilar el proyecto, para ello, ejecuta.
+
 		antlr4 -visitor Calculadora.g4
 
 Esto generará los archivos Java necesarios para el análisis de la gramática.
