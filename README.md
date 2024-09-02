@@ -83,5 +83,7 @@ Es importante tener en cuenta  que  (".:antlr-4.7-complete.jar" ) es el archivo.
 
 #### Errores comunes
 **- Error: Invalid or corrupt jarfile**: Asegúrate de que el archivo JAR de ANTLR4 esté correctamente descargado y que la variable ANTLR_JAR apunte al archivo correcto. Revisa que la ruta sea correcta y que el archivo no esté dañado.
+
+
 **-Error: no se ha encontrado o cargado la clase principal:** Verifica que el archivo .java correspondiente a la clase principal (Calculadora en este caso) esté compilado y que el nombre de la clase en el archivo .java coincida con el nombre que estás utilizando en el comando java
 
