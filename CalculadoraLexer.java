@@ -1,4 +1,4 @@
-// Generated from Calculadora.g4 by ANTLR 4.7
+// Generated from Calculadora.g4 by ANTLR 4.7.2
 import org.antlr.v4.runtime.Lexer;
 import org.antlr.v4.runtime.CharStream;
 import org.antlr.v4.runtime.Token;
@@ -10,7 +10,7 @@ import org.antlr.v4.runtime.misc.*;
 
 @SuppressWarnings({"all", "warnings", "unchecked", "unused", "cast"})
 public class CalculadoraLexer extends Lexer {
-	static { RuntimeMetaData.checkVersion("4.7", RuntimeMetaData.VERSION); }
+	static { RuntimeMetaData.checkVersion("4.7.2", RuntimeMetaData.VERSION); }
 
 	protected static final DFA[] _decisionToDFA;
 	protected static final PredictionContextCache _sharedContextCache =
@@ -26,19 +26,28 @@ public class CalculadoraLexer extends Lexer {
 		"DEFAULT_MODE"
 	};
 
-	public static final String[] ruleNames = {
-		"T__0", "T__1", "T__2", "T__3", "ID", "NUMBER", "POW", "ABS", "SUB", "LPAREN", 
-		"RPAREN", "NEWLINE", "WS"
-	};
+	private static String[] makeRuleNames() {
+		return new String[] {
+			"T__0", "T__1", "T__2", "T__3", "ID", "NUMBER", "POW", "ABS", "SUB", 
+			"LPAREN", "RPAREN", "NEWLINE", "WS"
+		};
+	}
+	public static final String[] ruleNames = makeRuleNames();
 
-	private static final String[] _LITERAL_NAMES = {
-		null, "'='", "'*'", "'/'", "'+'", null, null, "'^'", "'|'", "'-'", "'('", 
-		"')'"
-	};
-	private static final String[] _SYMBOLIC_NAMES = {
-		null, null, null, null, null, "ID", "NUMBER", "POW", "ABS", "SUB", "LPAREN", 
-		"RPAREN", "NEWLINE", "WS"
-	};
+	private static String[] makeLiteralNames() {
+		return new String[] {
+			null, "'='", "'*'", "'/'", "'+'", null, null, "'^'", "'|'", "'-'", "'('", 
+			"')'"
+		};
+	}
+	private static final String[] _LITERAL_NAMES = makeLiteralNames();
+	private static String[] makeSymbolicNames() {
+		return new String[] {
+			null, null, null, null, null, "ID", "NUMBER", "POW", "ABS", "SUB", "LPAREN", 
+			"RPAREN", "NEWLINE", "WS"
+		};
+	}
+	private static final String[] _SYMBOLIC_NAMES = makeSymbolicNames();
 	public static final Vocabulary VOCABULARY = new VocabularyImpl(_LITERAL_NAMES, _SYMBOLIC_NAMES);
 
 	/**
