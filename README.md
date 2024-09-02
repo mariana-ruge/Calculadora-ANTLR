@@ -21,7 +21,9 @@ java -- version
 `
 En caso de tenerlo instalado te mostrará la version del Open JDK y sus versiones de compilación.
 En este proyecto se usaron las siguientes versiones para compilar y ejecutar en Java.
+
 **Importante: Asegurate de tener la misma versión que se especifica en este documento, para evitar diversos problemas de compatibilidad y fallas en la ejecución.**
+
 Se usa el JDK 21
 ````shell
 openjdk 21.0.4 2024-07-16
