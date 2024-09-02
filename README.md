@@ -63,12 +63,15 @@ Si no tienes instalado el JDK, puedes instalarlo de la siguiente forma:
 1. Clona este repositorio a tu máquina local, puedes hacerlo de la siguiente forma.
 
 Ubicate en la carperta del proyecto.
+
 		 cd 'Directorio donde vas a clonar'
 
 Clona el repositorio con el siguiente comando
+
 		 `git clone https://github.com/mariana-ruge/Calculadora-ANTLR.git`
 
 Navega hasta la carpeta que se ha clonado en tus directorios
+
 		 cd 'Calculadora-ANTLR'
 
 Verifica que los archivos que estan subidos en este repositorio sean exactamente los que se han clonado a tu entorno local, para no tener problemas más adelante.
