@@ -61,22 +61,31 @@ Si no tienes instalado el JDK, puedes instalarlo de la siguiente forma:
 
 ## Para ejecutar el proyecto
 1. Clona este repositorio a tu máquina local, puedes hacerlo de la siguiente forma.
+
 Ubicate en la carperta del proyecto.
 		 cd 'Directorio donde vas a clonar'
+
 Clona el repositorio con el siguiente comando
 		 `git clone https://github.com/mariana-ruge/Calculadora-ANTLR.git`
+
 Navega hasta la carpeta que se ha clonado en tus directorios
 		 cd 'Calculadora-ANTLR'
+
 Verifica que los archivos que estan subidos en este repositorio sean exactamente los que se han clonado a tu entorno local, para no tener problemas más adelante.
 
 2.  Una vez en la carpeta,  deberás compilar el proyecto, para ello, ejecuta.
 		antlr4 -visitor Calculadora.g4
+
 Esto generará los archivos Java necesarios para el análisis de la gramática.
+
 3. **Compila los archivos Java generados**: Compila los archivos generados por ANTLR4 usando javac, para ello, ejecuta el siguiente comando. 
+
 		javac -cp ".:antlr-4.7-complete.jar" *.java
+
 Es importante tener en cuenta  que  (".:antlr-4.7-complete.jar" ) es el archivo.jar que debiste haber descargado anteriormente, y si le cambiaste el nombre debe ser modificado.
 
 4.  **Usa el  comando java -cp** para ejecutar el programa. Aségurate de proporcionar el archivo de entrada con las expresiones a evaluar.
+
 		java -cp ".:antlr-4.7-complete.jar" Calculadora entrada.expr
 
 5. En la consola verás la ejecución de las operaciones establecidas en el archivo entrada .expr,  para hacer más operaciones, deberás modificar estos, añadiendo los operandos (variables) y los operadores, siempre cuando estos cumplan las reglas establecidas en el programa.
